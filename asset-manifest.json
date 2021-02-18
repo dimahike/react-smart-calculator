@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-smart-calculator/static/css/main.6fac8940.chunk.css",
+    "main.js": "/react-smart-calculator/static/js/main.122bb137.chunk.js",
+    "main.js.map": "/react-smart-calculator/static/js/main.122bb137.chunk.js.map",
+    "runtime-main.js": "/react-smart-calculator/static/js/runtime-main.78e3042d.js",
+    "runtime-main.js.map": "/react-smart-calculator/static/js/runtime-main.78e3042d.js.map",
+    "static/js/2.8b23e545.chunk.js": "/react-smart-calculator/static/js/2.8b23e545.chunk.js",
+    "static/js/2.8b23e545.chunk.js.map": "/react-smart-calculator/static/js/2.8b23e545.chunk.js.map",
+    "static/js/3.20b51625.chunk.js": "/react-smart-calculator/static/js/3.20b51625.chunk.js",
+    "static/js/3.20b51625.chunk.js.map": "/react-smart-calculator/static/js/3.20b51625.chunk.js.map",
+    "index.html": "/react-smart-calculator/index.html",
+    "static/css/main.6fac8940.chunk.css.map": "/react-smart-calculator/static/css/main.6fac8940.chunk.css.map",
+    "static/js/2.8b23e545.chunk.js.LICENSE.txt": "/react-smart-calculator/static/js/2.8b23e545.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.78e3042d.js",
+    "static/js/2.8b23e545.chunk.js",
+    "static/css/main.6fac8940.chunk.css",
+    "static/js/main.122bb137.chunk.js"
+  ]
+}
