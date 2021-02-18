@@ -8,6 +8,7 @@ function App() {
   const [displayInput2, setDisplayInput2] = useState('');
   const [result, setResult] = useState(0);
   const [stateEqual, setStateEqual] = useState(false);
+  const [statePercent, setStatePercent] = useState(false);
 
   const fixedNum = (num) => {
     return Number(num.toFixed(2));
@@ -56,6 +57,10 @@ function App() {
   }, [displayInput, displayInput2]);
 
   const printNumber = (num) => {
+    if (statePercent) {
+      return;
+    }
+
     if (stateEqual) {
       setDisplayInput(num);
       setDisplayInput2('');
@@ -92,6 +97,8 @@ function App() {
     setStateEqual(false);
 
     if (!isOperatorLast && displayInput2) {
+      setStateEqual(false);
+      setStatePercent(true);
       const deletedLastOperator = displayInput2.slice(0, displayInput2.length - 2);
       let resultCode;
       eval(`resultCode = ${deletedLastOperator}`);
@@ -104,7 +111,7 @@ function App() {
   };
 
   const dote = () => {
-    if (stateEqual) {
+    if (stateEqual || statePercent) {
       setStateEqual(false);
       return setDisplayInput('0.');
     }
