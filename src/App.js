@@ -109,7 +109,7 @@ function App() {
       return setDisplayInput('0.');
     }
     const isOperatorLast = cheackIsOperatorLast();
-    if (!isOperatorLast || !stateEqual) {
+    if (!isOperatorLast && !stateEqual) {
       if (displayInput === '0') {
         console.log('work111');
         setDisplayInput('0.');
@@ -129,6 +129,7 @@ function App() {
       }
 
       setStateEqual(false);
+    } else {
     }
   };
 
